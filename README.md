@@ -1,59 +1,61 @@
 <h1 align="center">⭐ StarClient</h1>
-<p align="center"><strong>Advanced Minecraft Client for Competitive PvP (cpvp)</strong></p>
+<p align="center"><strong>Responsive, Clean & Combat-Optimized Minecraft Client for Competitive PvP (cpvp)</strong></p>
+
 <p align="center">
-  Created with ❤️ by <a href="https://github.com/ayyrush">ayyrush</a> and <a href="https://github.com/realfrafti">realfrafti</a>
+  <a href="https://github.com/ayyrush"><img src="https://img.shields.io/badge/Creator-ayyrush-6e40c9?style=for-the-badge&logo=github" /></a>
+  <a href="https://github.com/realfrafti"><img src="https://img.shields.io/badge/Creator-realfrafti-6e40c9?style=for-the-badge&logo=github" /></a>
 </p>
 
 ---
 
-## 🚀 Overview
+## ✨ UI/UX First Design
 
-**StarClient** is a performance-optimized Minecraft client designed specifically for the **cpvp (competitive PvP)** community.  
-It delivers a smooth and customizable combat experience, built with precision, responsiveness, and modern visuals in mind.
+> StarClient is built around a **player-first philosophy** – clean visuals, responsive layouts, and fast access to the tools that matter in combat.
 
----
-
-## 🎯 Features
-
-- ⚔️ **Optimized for Combat** – Better hit registration, attack timing tools, and reach visualization  
-- ⚡ **High FPS Performance** – Tweaked settings and lightweight rendering for max performance  
-- 🎮 **Custom GUI** – Sleek PvP interface with drag-and-drop HUD elements  
-- 🛠️ **Modular Design** – Easily enable/disable combat mods and utilities  
-- 🔒 **Server Compatibility** – Designed for performance, not cheating — respects PvP server rules  
-- 🌙 **Dark & Minimalist Theme** – Built for focus and clean visuals
+### 🎨 Interface Highlights
+- 🧊 **Modular GUI** — Easily move, scale, and configure elements  
+- 🕶️ **Dark Mode by Default** — Focus on clarity, not clutter  
+- ⚡ **Zero-Lag Overlays** — Performance-tuned HUD, toggle effects, and indicators  
+- 🖱️ **Mouse-friendly Controls** — Fast toggle menus, sliders, and tooltips
 
 ---
 
-## 🧰 Tech Stack
+## 🧪 Live Preview (Coming Soon)
 
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="30" alt="Java" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" height="30" alt="IntelliJ IDEA" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gradle/gradle-plain.svg" height="30" alt="Gradle" />
+> Interactive preview of the StarClient interface will be hosted here soon.  
+> *(GIF or video demo section)*
+
+---
+
+## ⚔️ Core Features
+
+| Feature               | Description                                                                 |
+|----------------------|-----------------------------------------------------------------------------|
+| ⚔️ Combat Optimization | Reach display, click stats, CPS counter, hit-timing assists                |
+| 🧩 Modular Mods        | Toggle ESP, keystrokes, armor HUD, potion effects, FPS/Ping                 |
+| 🎛️ Configurable GUI    | Drag-and-drop layout, transparency, fonts, scaling                         |
+| 🌐 Network Aware       | Smart ping, server-aware toggles, low-latency HUD                          |
+| 🔐 Secure & Clean      | No cheat-injection, server EULA friendly (intended for fair PvP)           |
+
+---
+
+## 🚀 Tech Stack
+
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40" alt="Java" />
+  <img width="20"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" height="40" alt="IntelliJ IDEA" />
+  <img width="20"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gradle/gradle-plain.svg" height="40" alt="Gradle" />
+  <img width="20"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="Git" />
 </div>
 
 ---
 
-## 📷 Screenshots
+## 🧩 Installation
 
-> _Coming soon..._
-
----
-
-## 👨‍💻 Creators
-
-- [@ayyrush](https://github.com/ayyrush) — Lead Developer  
-- [@realfrafti](https://github.com/realfrafti) — Co-Developer & PvP Specialist  
-
----
-
-## 📂 Installation
-
-> ⚠️ _StarClient is under active development._
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/[your-org-or-user]/StarClient.git
-   cd StarClient
+```bash
+git clone https://github.com/[your-org-or-user]/StarClient.git
+cd StarClient
+./gradlew build
